@@ -23,18 +23,6 @@
 		<script type="text/javascript" src="http://code.jquery.com/jquery-3.0.0.min.js"></script>
   		<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 		<script type="text/javascript" src="/js/slick.min.js"></script>
-		 <script type="text/javascript">
-		    $(document).ready(function(){
-		      $('.single-item').slick(
-		      {
-		      	dots: true,
-		      	autoplay: true,
-		      	arrows: false,
-		      	speed: 900
-		      }
-		      	);
-
-		    });
-		  </script>
+		<script type="text/javascript" src="/js/script.js"></script>
 	</body>
 </html>

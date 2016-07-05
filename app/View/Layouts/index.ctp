@@ -62,15 +62,15 @@
 		<div class="main">
 			<div class="cr">
 				<div class="m_left box">
-					<a href="#">
+					<a href="/">
 						<img src="img/logo.jpg">
 					</a>
 					<a class="zapis" href="#">Записаться на прием</a>
 					<img src="img/ava.png">
 					<div class="director">
-						<span>Фамилия Имя Отчество</span>
-						<p>- генеральный директор компании “Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.”</p>
-						<a href="#">Подробнее</a>
+						<span>Елена Байбекова</span>
+						<p>Елена Байбекова - Сертифицированный тренер компании Валлекс, Россия. Член международных конгрессов и форумов. Обладатель многочисленных специализаций в области косметологии В течении 20 лет занимаясь активной педагогической деятельностью, издавая печатные научные работы, вносит вклад в развитие современной косметологии в Казахстане.</p>
+						<button class="more_b" type="button">Подробнее</button>
 					</div>
 				</div>
 				<div class="m_right">
@@ -86,7 +86,7 @@
 						</div>
 						<div class="castilo_des">
 							<h2>Callisto - косметологический центр Елены Байбековой</h2>
-							<?= $this->Text->truncate(strip_tags($page['Page']['body']), 390, array('ellipsis' => '...', 'exact' => true)) ?>
+							<p><?= $this->Text->truncate(strip_tags($page['Page']['body']), 390, array('ellipsis' => '...', 'exact' => true)) ?></p>
 							<a href="/page/about">Подробнее</a>
 							<div class="clearfix"></div>
 						</div>
@@ -163,19 +163,6 @@
 		<script type="text/javascript" src="http://code.jquery.com/jquery-3.0.0.min.js"></script>
   		<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 		<script type="text/javascript" src="/js/slick.min.js"></script>
-		 <script type="text/javascript">
-		    $(document).ready(function(){
-		      $('.single-item').slick(
-		      {
-		      	dots: true,
-		      	autoplay: true,
-		      	arrows: false,
-		      	speed: 900,
-  				  easing: 'easeInOutBack'
-		      }
-		      	);
-
-		    });
-		  </script>
+		<script type="text/javascript" src="/js/script.js"></script>
 	</body>
 </html>
