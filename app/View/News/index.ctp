@@ -1,11 +1,11 @@
 <div class="m_left box">
-	<img src="img/logo.jpg">
+	<a href="/"><img src="img/logo.jpg"></a>
 	<a class="zapis" href="#">Записаться на прием</a>
 	<img src="img/ava.png">
 	<div class="director">
-		<span>Фамилия Имя Отчество</span>
-		<p>- генеральный директор компании “Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.”</p>
-		<a href="#">Подробнее</a>
+		<span>Елена Байбекова</span>
+		<p>Елена Байбекова - Сертифицированный тренер компании Валлекс, Россия. Член международных конгрессов и форумов. Обладатель многочисленных специализаций в области косметологии В течении 20 лет занимаясь активной педагогической деятельностью, издавая печатные научные работы, вносит вклад в развитие современной косметологии в Казахстане.</p>
+		<button class="more_b" type="button">Подробнее</button>
 	</div>
 </div>
 <div class="right_part">
