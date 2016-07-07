@@ -221,7 +221,7 @@ background-image: url(data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiB
     width: 100%;
     max-width: 1920px;
     overflow: hidden;
-    background-position: center;
+    background-position: top center;    
     margin: 0 auto;
     background-repeat: no-repeat;
 }
@@ -297,7 +297,7 @@ background-image: url(data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiB
 .director .p_show{
   height:auto;
 }
-.director a:hover,.castilo_des a:hover{
+.director button:hover,.castilo_des a:hover{
   color:#2e9998;
 }
 .zapis:hover{
